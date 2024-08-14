@@ -39,7 +39,7 @@ export default function Component() {
       <main className="flex flex-col items-center justify-center text-center px-6 py-20">
         <h1 className="text-5xl font-bold mb-4"style={{color:"white"}}>Welcome to Studio G</h1>
         <p className="text-lg mb-8"style={{color:"white"}}>
-          The world’s best mixing & mastering engineers, singers, songwriters, producers and studio musicians for hire
+          Book Time Now!
         </p>
         <div className="flex space-x-4 mb-8">
           <Button className="bg-[#4a90e2] text-white px-6 py-3">BOOK A SESSION</Button>
