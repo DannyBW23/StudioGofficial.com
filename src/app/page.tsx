@@ -5,12 +5,12 @@ import { Button } from "@/components/ui/button"
 import { InlineWidget } from 'react-calendly';
 import { useEffect } from "react";
 export default function Component() {
-  useEffect(() => {
-    var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
-    if (httpTokens) {
-      window.location.replace('https://' + httpTokens[1]);
-    }
-  }, []); 
+  // useEffect(() => {
+  //   var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
+  //   if (httpTokens) {
+  //     window.location.replace('https://' + httpTokens[1]);
+  //   }
+  // }, []); 
   return (
     <div className="min-h-screen bg-[#1a1a1a]">
       <header className="flex items-center justify-between px-6 py-4">
