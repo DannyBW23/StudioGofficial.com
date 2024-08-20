@@ -6,12 +6,12 @@ import { InlineWidget } from 'react-calendly';
 import { useEffect } from "react";
 import Link from "next/link";
 export default function Component() {
-  // useEffect(() => {
-  //   var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
-  //   if (httpTokens) {
-  //     window.location.replace('https://' + httpTokens[1]);
-  //   }
-  // }, []); 
+  useEffect(() => {
+    var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
+    if (httpTokens) {
+      window.location.replace('https://' + httpTokens[1]);
+    }
+  }, []); 
   return (
     <div style={{  
       backgroundImage: "url(" + "https://profilepic23.s3.amazonaws.com/IMG_3677.jpg" + ")",

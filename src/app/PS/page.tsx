@@ -3,8 +3,15 @@ import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { Select } from "@/components/ui/select"
 import { Button } from "@/components/ui/button"
+import { useEffect } from "react"
 import Link from "next/link";
 export default function Component() {
+    useEffect(() => {
+        var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
+        if (httpTokens) {
+          window.location.replace('https://' + httpTokens[1]);
+        }
+      }, []); 
     return (
      
 <div
