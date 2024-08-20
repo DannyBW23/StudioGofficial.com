@@ -13,6 +13,9 @@ export default function Component() {
         }
       }, []); 
     return (
+        <html>
+        <meta name="viewport" content="width=device-width, initial-scale=.4" />
+      <>
      
 <div
  style={{  
@@ -286,6 +289,8 @@ export default function Component() {
               </div> 
             </div>
             </div>
+            </>
+            </html>
           )
         }
         
