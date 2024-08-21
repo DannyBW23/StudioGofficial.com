@@ -92,7 +92,7 @@ export default function Component() {
                
               </div> */}
               <div
-              className="break-words min-h-screen grid grid-cols-3 gap-4 items-center justify-center">
+              className="break-words text-container min-h-screen grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 items-center justify-center">
               <div style={{backgroundColor:"white"}}className=" bg-white shadow-lg rounded-lg w-full max-w-3xl px-8 py-12">
                 <header className="text-center">
                   <h1 className="text-4xl font-serif font-bold mb-2">Eric</h1>
@@ -107,15 +107,15 @@ export default function Component() {
 
              
                 </header>
-                <div className="mt-8 grid grid-cols-2 gap-8">
+                <div className="mt-8 grid grid-cols-1 sm:grid-cols-2  gap-8">
                   <div>
                  
                     <h2 className="text-2xl font-serif font-bold mb-4">Tracks</h2>
                   
-                    <div className="flex items-center gap-4 mb-4">
+                    <div className="flex flex-wrap  items-center gap-4 mb-4">
                     
                       <div>
-                      <Button style={{backgroundColor:"orange"}}variant="outline" className="border border-white text-white px-6 py-3">
+                      <Button style={{backgroundColor:"orange"}}variant="outline" className="overflow-button border border-white text-white px-6 py-3  w-full sm:w-auto">
                       <Link legacyBehavior href="https://on.soundcloud.com/CVj4PJBqjKq8spEP6" >
         <a target="_blank">
                         <p className="text-lg font-medium">SoundCloud</p>
@@ -128,7 +128,7 @@ export default function Component() {
                      
                       <div>
                       <h2 className="text-2xl font-serif font-bold mb-4">Role</h2>
-                      <Button style={{backgroundColor:"orange"}}variant="outline" className="border border-white text-white px-6 py-3">
+                      <Button style={{backgroundColor:"orange"}}variant="outline" className="border border-white text-white px-6 py-3  w-full sm:w-auto">
                         <p className="text-lg font-medium">Book a Time</p>
                         </Button>
                       </div>
@@ -141,14 +141,14 @@ export default function Component() {
                       <div>
                         
                       <h2 className="text-2xl font-serif font-bold mb-4">Email</h2>
-                      <Button style={{backgroundColor:"black"}}variant="outline" className="border border-white text-white px-3 py-3">
+                      <Button style={{backgroundColor:"black"}}variant="outline" className=" overflow-button border border-white text-white px-3 py-3  w-full sm:w-auto ">
                       <p style={{color:"white"}}className="text-lg font-medium">Eskomgmt@gmail.com</p>
                       </Button>
                         </div>
                         <div>
 
                       <h2 className="text-2xl font-serif font-bold mb-4">Instagram</h2>
-                      <Button style={{backgroundColor:"black"}}variant="outline" className="border border-white text-white px-6 py-3">
+                      <Button style={{backgroundColor:"black"}}variant="outline" className="border border-white text-white px-6 py-3  w-full sm:w-auto">
                       <Link legacyBehavior href="https://www.instagram.com/esko_7777?igsh=MWRubWg5NG1hYXhwbQ%3D%3D&utm_source=qr">
 
                         <a target="_blank">
