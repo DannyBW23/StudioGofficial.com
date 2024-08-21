@@ -165,7 +165,7 @@ export default function Component() {
               </div>
               <div style={{backgroundColor:"white"}}className=" bg-white shadow-lg rounded-lg w-full max-w-3xl px-8 py-12">
                 <header className="text-center">
-                  <h1 className="text-4xl font-serif font-bold mb-2">Izzyj</h1>
+                  <h1 className="text-4xl font-serif font-bold mb-2">Artist</h1>
                   <img
                 
                     src="/placeholder.svg"
