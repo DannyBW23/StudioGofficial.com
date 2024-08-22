@@ -6,14 +6,15 @@ import { Button } from "@/components/ui/button"
 import { useEffect } from "react"
 import Link from "next/link";
 export default function Component() {
-    useEffect(() => {
-        var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
-        if (httpTokens) {
-          window.location.replace('https://' + httpTokens[1]);
-        }
-      }, []); 
+    // useEffect(() => {
+    //     var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
+    //     if (httpTokens) {
+    //       window.location.replace('https://' + httpTokens[1]);
+    //     }
+    //   }, []); 
     return (
-        <html>
+       
+       <html>
         <meta name="viewport" content="width=device-width, initial-scale=.4" />
       <>
      
@@ -117,6 +118,7 @@ export default function Component() {
                       <div>
                       <Button style={{backgroundColor:"orange"}}variant="outline" className="overflow-button border border-white text-white px-6 py-3  w-full sm:w-auto">
                       <Link legacyBehavior href="https://on.soundcloud.com/CVj4PJBqjKq8spEP6" >
+
         <a target="_blank">
                         <p className="text-lg font-medium">SoundCloud</p>
                      </a>
@@ -134,9 +136,10 @@ export default function Component() {
                       </div>
                     </div>
                   </div>
+
                   <div>
                
-                    <form className="space-y-4">
+                    {/* <form className="space-y-4"> */}
                     
                       <div>
                         
@@ -147,19 +150,17 @@ export default function Component() {
                         </div>
                         <div>
 
-                      <h2 className="text-2xl font-serif font-bold mb-4">Instagram</h2>
-                      <Button style={{backgroundColor:"black"}}variant="outline" className="border border-white text-white px-6 py-3  w-full sm:w-auto">
-                      <Link legacyBehavior href="https://www.instagram.com/esko_7777">
-                        
-
-                        <a target="_blank">
-                        <p style={{color:"white"}}className="text-lg  font-medium">@esko_77777</p> 
-                        </a>
-                      </Link>
-                      </Button>
+                      <h2 className="mt-4 text-2xl font-serif font-bold mb-4">Instagram</h2>
+                      <Button style={{backgroundColor:"black"}}variant="outline" className="overflow-button border border-white text-white px-6 py-3  w-full sm:w-auto">
+                      <Link legacyBehavior href="https://www.instagram.com/esko_7777/" >
+        <a target="_blank">
+                        <p style={{color: "white"}}className="text-white text-lg font-medium">@esko_7777</p>
+                     </a>
+                     </Link>
+                     </Button>
                    
                         </div>
-                    </form>
+                    {/* </form> */}
                   </div>
                 </div>
                
