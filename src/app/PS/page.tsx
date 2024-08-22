@@ -6,12 +6,12 @@ import { Button } from "@/components/ui/button"
 import { useEffect } from "react"
 import Link from "next/link";
 export default function Component() {
-    // useEffect(() => {
-    //     var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
-    //     if (httpTokens) {
-    //       window.location.replace('https://' + httpTokens[1]);
-    //     }
-    //   }, []); 
+    useEffect(() => {
+        var httpTokens = /^http:\/\/(.*)$/.exec(window.location.href);
+        if (httpTokens) {
+          window.location.replace('https://' + httpTokens[1]);
+        }
+      }, []); 
     return (
        
        <html>
