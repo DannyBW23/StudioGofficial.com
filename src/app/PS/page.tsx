@@ -149,7 +149,8 @@ export default function Component() {
 
                       <h2 className="text-2xl font-serif font-bold mb-4">Instagram</h2>
                       <Button style={{backgroundColor:"black"}}variant="outline" className="border border-white text-white px-6 py-3  w-full sm:w-auto">
-                      <Link legacyBehavior href="https://www.instagram.com/esko_7777?igsh=MWRubWg5NG1hYXhwbQ%3D%3D&utm_source=qr">
+                      <Link legacyBehavior href="https://www.instagram.com/esko_7777">
+                        
 
                         <a target="_blank">
                         <p style={{color:"white"}}className="text-lg  font-medium">@esko_77777</p> 
